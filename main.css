@@ -1,0 +1,324 @@
+body, h1, h2, h3, h4, h5, h6, p, label,
+input, select, textarea, fieldset, .button {
+  font-family: "Raleway", "Open Sans", Helvetica, sans-serif;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 54px;
+  margin-bottom: 36px;
+  line-height: 42px;
+  color: white; /* Change when integrating to CSS */
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 108px;
+  margin-bottom: 36px;
+  line-height: 24px;
+  color: #68002F;
+  font-weight: 600;
+  text-transform: uppercase;
+
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 100;
+  margin-top: 108px;
+  line-height: 36px;
+  color: white; /* Change when integrating to CSS */
+}
+
+h6 {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  margin: 0px;
+  opacity: .7;
+  text-transform: none;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 36px;
+  margin-bottom: 36px;
+  margin-left: 12px;
+  margin-right: 12px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+label {
+  font-size: 14px;
+  margin-top: 36px;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  line-height: 18px;
+  font-weight: 300;
+}
+
+hr {
+  width: 80px;
+  border-color: #68002F;
+  margin: auto;
+}
+
+.white {
+  border-color: white;
+}
+
+/* Elements */
+
+input[type="email"], input[type="number"],
+input[type="search"], input[type="text"],
+input[type="date"], input[type="tel"],
+input[type="url"], input[type="password"], textarea {
+  border: 1px solid #979797;
+  color: grey;
+}
+
+.button {
+  font-size: 18px;
+  line-height: 24px;
+  color: #68002F;
+  font-weight: 600;
+  border: 1px solid #68002F;
+  border-radius: 0;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+  background-color: white;
+}
+
+/* Menu */
+.us_menu {
+  max-width: 1024px; /* @media query adjustable */
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  height: 5vh;
+}
+
+.us_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.us_menu li {
+    float: right;
+    width: 100px;
+    line-height: 5vh;
+    text-align: right;
+}
+
+.us_menu a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+/* Landing page */
+.us_landing_page {
+  top: 5vh;
+  height: 95vh;
+
+  background-image: url("img/UP_landing_image_2.jpg");
+  background-size: cover;
+
+  border-top: 1px solid white;
+}
+
+.us_landing_logo {
+  position: absolute;
+  height: 10vh;
+  top: 25vh;
+
+  -o-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);s
+}
+
+.us_landing_table {
+  position: absolute;
+  top: 45vh;
+  left: 50vw;
+
+  -o-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+
+
+  height: 400px;
+  width: 720px;
+
+  background-color: black;
+  opacity: .7;
+}
+.us_landing_text {
+  position: absolute;
+  top: 45vh;
+  left: 50vw;
+
+  -o-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+
+    width: 600px;
+    color: white;
+}
+.us_arrow {
+  position: absolute;
+  top: 92vh;
+  max-width: 108px;
+  margin: 0 auto;
+
+  -o-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+
+/* Main body */
+.us_row {
+  max-width: 1024px; /* @media query adjustable */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #eeeeef;
+
+  border-top: 1px solid white;
+}
+
+.us_about_text {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Portfolio */
+.row {
+  margin: 0;
+}
+
+.us_portfolio {
+  margin: 48px auto 36px auto;
+  max-width: 780px; /* @media query adjustable */
+}
+
+.us_skill {
+  border: 1px solid #68002F;
+  height: 200px;
+  background-color: white;
+  margin: 10px 10px 10px 10px;
+}
+
+.us_skill h3 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  color: black;
+  text-transform: uppercase;
+  margin-top: -4px;
+  margin-left: -20px;
+}
+
+.us_skill p {
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: -14px;
+  margin-left: -10px;
+}
+
+.us_portfolio_pic {
+  height: 100px;
+  margin: 20px 0px 10px -20px;
+}
+
+.none {
+  opacity: 0;
+}
+
+/* Footer */
+.us_footer {
+  position: static;
+  margin-bottom: 1rem;
+}
+
+/*Social Media Icons*/
+
+.the-icons {
+    line-height: 1rem;
+    margin-bottom: 2rem;
+}
+
+a {
+    color: #9B9B9B;
+}
+a:hover {
+  color: #68002F;
+}
+
+/*Social Media Font*/
+
+@font-face {
+      font-family: 'fontello';
+      src: url('../font/fontello.eot?88240421');
+      src: url('../font/fontello.eot?88240421#iefix') format('embedded-opentype'),
+           url('../font/fontello.svg?88240421#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+
+    .demo-icon
+    {
+      font-family: "fontello";
+      font-style: normal;
+      font-weight: normal;
+      speak: none;
+
+      display: inline-block;
+      text-decoration: inherit;
+      width: 1em;
+      margin-right: .2em;
+      text-align: center;
+      /* opacity: .8; */
+
+      /* For safety - reset parent styles, that can break glyph codes*/
+      font-variant: normal;
+      text-transform: none;
+
+      /* fix buttons height, for twitter bootstrap */
+      line-height: 1em;
+
+      /* Animation center compensation - margins should be symmetric */
+      /* remove if not needed */
+      margin-left: .2em;
+
+      /* You can be more comfortable with increased icons size */
+      font-size: 1.333rem;
+
+      /* Font smoothing. That was taken from TWBS */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+
+      /* Uncomment for 3D effect */
+      /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+    }
